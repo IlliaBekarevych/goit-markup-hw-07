@@ -28,22 +28,23 @@
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  
 }
 
 .clients-icon {
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
-}
-.clients-icon:hover {
-  fill: var(--accent-color);
-}
-.cliets-link:hover,
-.cliets-link:focus {
-  border-color: var(--accent-color);
-}
-.cliets-link:hover .clients-icon,
-.cliets-link:focus .clients-icon {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover {
+    fill: var(--accent-color);
+  }
+  .cliets-link:hover &,
+  .cliets-link:focus & {
+      fill: var(--accent-color);
+      border-color: var(--accent-color);
+    }
 }
