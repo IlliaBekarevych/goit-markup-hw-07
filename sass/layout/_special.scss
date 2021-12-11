@@ -1,0 +1,38 @@
+.special-container {
+  padding-top: 94px;
+}
+.special-list {
+  display: flex;
+}
+.special-item {
+  width: 270px;
+}
+.special-item:not(:last-child) {
+  margin-right: 30px;
+}
+.special-icon-list {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.special-item-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  margin-bottom: 10px;
+}
+.special-text {
+  font-size: 14px;
+  line-height: 1.74;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--main-text-color);
+}
