@@ -1,8 +1,8 @@
-.work-container {
+.work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.work-list {
+.work__list {
   display: flex;
 }
 
@@ -15,14 +15,14 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.work-list-container {
+.work__list-container {
   position: absolute;
   width: 370px;
   height: 70px;
   top: 1435px;
   background: rgba(47, 48, 58, 0.8);
 }
-.work-list-title {
+.work__list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -32,6 +32,6 @@
   color: var(--second-title-color);
   margin-top: 27px;
 }
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
